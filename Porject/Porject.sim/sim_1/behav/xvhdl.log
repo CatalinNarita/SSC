@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculMantisa_sim

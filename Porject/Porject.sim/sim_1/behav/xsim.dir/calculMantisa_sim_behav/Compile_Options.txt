@@ -1,0 +1,1 @@
+-wto "8253c791ccb14de08a71b106b2f11a08" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "calculMantisa_sim_behav" "xil_defaultlib.calculMantisa_sim" -log "elaborate.log" 

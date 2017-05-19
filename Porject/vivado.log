@@ -1,0 +1,2435 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue May 02 17:36:11 2017
+# Process ID: 1116
+# Current directory: C:/Users/catal/Porject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11612 C:\Users\catal\Porject\Porject.xpr
+# Log file: C:/Users/catal/Porject/vivado.log
+# Journal file: C:/Users/catal/Porject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/catal/Porject/Porject.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 780.828 ; gain = 101.273
+close [ open C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareStanga.vhd w ]
+add_files C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareStanga.vhd
+open_project D:/Facultate/An3S2/SSC/lab/LabSSC/booth/booth.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+current_project Porject
+remove_files  C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareStanga.vhd
+file delete -force C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareStanga.vhd
+close [ open C:/Users/catal/Porject/Porject.srcs/sources_1/new/adunareMantise.vhd w ]
+add_files C:/Users/catal/Porject/Porject.srcs/sources_1/new/adunareMantise.vhd
+close [ open C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareStanga.vhd w ]
+add_files C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareStanga.vhd
+current_project booth
+current_project Porject
+remove_files  {C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareStanga.vhd C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisaDreapta.vhd}
+file delete -force C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareStanga.vhd C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisaDreapta.vhd
+close [ open C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.v w ]
+add_files C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.v
+remove_files  C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.v
+file delete -force C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.v
+close [ open C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd w ]
+add_files C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd w ]
+add_files -fileset sim_1 C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd
+remove_files  -fileset sim_1 C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareDreapta_SIM.vhd
+file delete -force C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareDreapta_SIM.vhd
+set_property top deplasareMantisa_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+WARNING: [VRFC 10-1256] possible infinite loop; process does not have a wait statement [C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd:25]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 20:11:49 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 20:11:49 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 870.965 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "deplasareMantisa_sim_behav -key {Behavioral:sim_1:Functional:deplasareMantisa_sim} -tclbatch {deplasareMantisa_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source deplasareMantisa_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:09 ; elapsed = 00:06:57 . Memory (MB): peak = 899.641 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:06:59 . Memory (MB): peak = 899.641 ; gain = 28.676
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-4707] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:07:14 . Memory (MB): peak = 899.641 ; gain = 28.676
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 20:21:01 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 20:21:01 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "deplasareMantisa_sim_behav -key {Behavioral:sim_1:Functional:deplasareMantisa_sim} -tclbatch {deplasareMantisa_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source deplasareMantisa_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'deplasareMantisa_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 899.641 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 910.570 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 910.570 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 913.945 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 924.340 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 924.340 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 20:38:21 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 20:38:21 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "deplasareMantisa_sim_behav -key {Behavioral:sim_1:Functional:deplasareMantisa_sim} -tclbatch {deplasareMantisa_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source deplasareMantisa_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'deplasareMantisa_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 924.340 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 924.340 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+ERROR: [VRFC 10-1412] syntax error near ; [C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd:53]
+WARNING: [VRFC 10-1256] possible infinite loop; process does not have a wait statement [C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd:35]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd:10]
+INFO: [VRFC 10-240] VHDL file C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 936.379 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 936.379 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 936.379 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent.vhd w ]
+add_files -fileset sim_1 C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent.vhd
+remove_files  -fileset sim_1 C:/Users/catal/Porject/Porject.srcs/sim_1/new/decrementareExponent_SIM.vhd
+file delete -force C:/Users/catal/Porject/Porject.srcs/sim_1/new/decrementareExponent_SIM.vhd
+remove_files  {C:/Users/catal/Porject/Porject.srcs/sources_1/new/adunareMantise.vhd C:/Users/catal/Porject/Porject.srcs/sources_1/new/decrementareExponent.vhd}
+file delete -force C:/Users/catal/Porject/Porject.srcs/sources_1/new/adunareMantise.vhd C:/Users/catal/Porject/Porject.srcs/sources_1/new/decrementareExponent.vhd
+remove_files  -fileset sim_1 C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent.vhd
+file delete -force C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent.vhd
+close [ open C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd w ]
+add_files C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd w ]
+add_files -fileset sim_1 C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd
+set_property top calculExponent_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 23 elements ; expected 8 [C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd:49]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit calculexponent_sim in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/catal/Porject/Porject.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 23 elements ; expected 8 [C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd:49]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit calculexponent_sim in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/catal/Porject/Porject.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:14:31 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:14:31 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 936.379 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:16:01 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:16:01 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 979.418 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:18:23 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:18:23 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 979.418 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 979.418 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:27:05 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:27:05 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 979.418 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:28:49 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:28:49 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 979.418 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:30:53 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:30:53 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 979.418 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 985.363 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+ERROR: [VRFC 10-91] rst is not declared [C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd:31]
+ERROR: [VRFC 10-283] actual of formal out port depasiresup cannot be an expression [C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd:31]
+ERROR: [VRFC 10-1471] type error near depasiresup ; current type std_logic; expected type std_logic_vector [C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd:31]
+ERROR: [VRFC 10-37] calculexponent has only 6 ports [C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd:31]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd:10]
+INFO: [VRFC 10-240] VHDL file C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:39:06 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:39:06 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1006.617 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:41:03 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:41:03 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1006.617 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:42:06 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:42:06 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.617 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1006.617 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 21:43:23 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 21:43:23 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1006.617 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1006.617 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1006.617 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1006.617 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculMantisa.vhd w ]
+add_files C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculMantisa.vhd
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 22:09:32 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 22:09:32 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1021.035 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1021.035 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 22:15:12 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 22:15:12 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1021.035 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1030.281 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculExponent_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 22:20:53 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 22:20:53 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculExponent_sim_behav -key {Behavioral:sim_1:Functional:calculExponent_sim} -tclbatch {calculExponent_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculExponent_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculExponent_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1030.281 ; gain = 0.000
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1030.281 ; gain = 0.000
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1030.281 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1030.281 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculExponent_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculExponent_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculExponent.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculExponent_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculExponent_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculExponent_sim_behav xil_defaultlib.calculExponent_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculExponent [calculexponent_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculexponent_sim
+Built simulation snapshot calculExponent_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1030.281 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top deplasareMantisa_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 22:38:09 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 22:38:09 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "deplasareMantisa_sim_behav -key {Behavioral:sim_1:Functional:deplasareMantisa_sim} -tclbatch {deplasareMantisa_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source deplasareMantisa_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'deplasareMantisa_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1030.281 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'deplasareMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj deplasareMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/deplasareMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/deplasareMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity deplasareMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot deplasareMantisa_sim_behav xil_defaultlib.deplasareMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.deplasareMantisa [deplasaremantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.deplasaremantisa_sim
+Built simulation snapshot deplasareMantisa_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/deplasareMantisa_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 22:40:19 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 22:40:19 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "deplasareMantisa_sim_behav -key {Behavioral:sim_1:Functional:deplasareMantisa_sim} -tclbatch {deplasareMantisa_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source deplasareMantisa_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'deplasareMantisa_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1030.281 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1030.281 ; gain = 0.000
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculMantisa_sim.vhd w ]
+add_files -fileset sim_1 C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculMantisa_sim.vhd
+set_property top calculMantisa_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'calculMantisa_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj calculMantisa_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sources_1/new/calculMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/catal/Porject/Porject.srcs/sim_1/new/calculMantisa_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity calculMantisa_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 8253c791ccb14de08a71b106b2f11a08 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calculMantisa_sim_behav xil_defaultlib.calculMantisa_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.calculMantisa [calculmantisa_default]
+Compiling architecture behavioral of entity xil_defaultlib.calculmantisa_sim
+Built simulation snapshot calculMantisa_sim_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculMantisa_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/catal/Porject/Porject.sim/sim_1/behav/xsim.dir/calculMantisa_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 02 22:47:39 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 02 22:47:39 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/catal/Porject/Porject.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "calculMantisa_sim_behav -key {Behavioral:sim_1:Functional:calculMantisa_sim} -tclbatch {calculMantisa_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source calculMantisa_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'calculMantisa_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1034.266 ; gain = 0.000
+current_project booth
+close_project
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1042.633 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 02 23:41:54 2017...
