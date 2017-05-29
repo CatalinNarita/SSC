@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sources_1/new/Inc_Dec.vhd"
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sources_1/new/comp2.vhd"
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sources_1/new/ALU1.vhd"
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sources_1/new/Round_Unit.vhd"
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sources_1/new/shift_LR.vhd"
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sources_1/new/controlUnit.vhd"
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sources_1/new/aluMantisa.vhd"
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sources_1/new/shiftUnit.vhd"
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd"
+vhdl xil_defaultlib  "../../../AdunareScadereVM.srcs/sim_1/new/add_sim.vhd"
+
+# Do not sort compile order
+nosort

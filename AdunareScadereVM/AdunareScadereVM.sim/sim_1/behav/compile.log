@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Inc_Dec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Inc_Dec
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/comp2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comp2
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/ALU1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU1
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Round_Unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Round_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/shift_LR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_LR
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/controlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity controlUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/aluMantisa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity aluMantisa
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/shiftUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shiftUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity addSubModule
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/add_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity add_sim

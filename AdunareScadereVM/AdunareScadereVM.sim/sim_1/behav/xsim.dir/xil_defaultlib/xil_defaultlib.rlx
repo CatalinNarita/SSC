@@ -1,0 +1,14 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/add_sim.vhd,1496016349,vhdl,,,,add_sim,,,,,,,,
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/ALU1.vhd,1496014519,vhdl,D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd,,,alu1,,,,,,,,
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Inc_Dec.vhd,1496016210,vhdl,D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd,,,inc_dec,,,,,,,,
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Round_Unit.vhd,1496014511,vhdl,D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd,,,round_unit,,,,,,,,
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd,1496016407,vhdl,D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/add_sim.vhd,,,addsubmodule,,,,,,,,
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/aluMantisa.vhd,1496015077,vhdl,D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd,,,alumantisa,,,,,,,,
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/comp2.vhd,1496016221,vhdl,D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd,,,comp2,,,,,,,,
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/controlUnit.vhd,1496014763,vhdl,D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd,,,controlunit,,,,,,,,
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/shiftUnit.vhd,1496016379,vhdl,D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd,,,shiftunit,,,,,,,,
+D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/shift_LR.vhd,1496016364,vhdl,D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/addSubModule.vhd,,,shift_lr,,,,,,,,

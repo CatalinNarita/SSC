@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon May 29 03:19:35 2017
+# Process ID: 13948
+# Current directory: D:/Facultate/AdunareScadereVM/AdunareScadereVM.runs/impl_1
+# Command line: vivado.exe -log topModule.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source topModule.tcl -notrace
+# Log file: D:/Facultate/AdunareScadereVM/AdunareScadereVM.runs/impl_1/topModule.vdi
+# Journal file: D:/Facultate/AdunareScadereVM/AdunareScadereVM.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source topModule.tcl -notrace

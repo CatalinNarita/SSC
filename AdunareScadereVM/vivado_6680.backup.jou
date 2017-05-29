@@ -1,0 +1,172 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun May 28 10:25:09 2017
+# Process ID: 6680
+# Current directory: D:/AdunareScadereVM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7468 D:\AdunareScadereVM\AdunareScadereVM.xpr
+# Log file: D:/AdunareScadereVM/vivado.log
+# Journal file: D:/AdunareScadereVM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/AdunareScadereVM/AdunareScadereVM.xpr
+launch_simulation
+source add_sim.tcl
+relaunch_sim
+close [ open D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/compareUnit.vhd w ]
+add_files D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/compareUnit.vhd
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sources_1
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/smallNumber}} 
+add_wave {{/add_sim/ADD_UNIT/largeNumber}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/fraction_final}} 
+add_wave {{/add_sim/ADD_UNIT/exponent_out_final}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/fraction_final}} 
+add_wave {{/add_sim/ADD_UNIT/exponent_out_final}} 
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/end_ctrl}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/stop}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/fraction_final}} 
+add_wave {{/add_sim/ADD_UNIT/exponent_out_final}} 
+relaunch_sim
+relaunch_sim
+set_property -name {xsim.simulate.runtime} -value {600ns} -objects [get_filesets sim_1]
+relaunch_sim
+close_sim
+launch_simulation
+source add_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/roundEnable}} 
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/exponentIncremented}} 
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/finalExponent}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source add_sim.tcl
+set_property -name {xsim.simulate.runtime} -value {1000 ns} -objects [get_filesets sim_1]
+relaunch_sim
+close_sim
+launch_simulation
+source add_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/shift_right_pos}} 
+add_wave {{/add_sim/ADD_UNIT/shiftEnable}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/exponentDifference}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/ready}} 
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/CONTROL/currentState}} 
+add_wave {{/add_sim/ADD_UNIT/CONTROL/nextState}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close [ open D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/comp2.vhd w ]
+add_files D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/comp2.vhd
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source add_sim.tcl
+add_wave {{/add_sim/ADD_UNIT/opCheckEnable}} 
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/CONTROL/currentState}} 
+add_wave {{/add_sim/ADD_UNIT/CONTROL/nextState}} 
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/shiftEnable}} 
+relaunch_sim
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/shiftPos}} 
+add_wave {{/add_sim/ADD_UNIT/exponentDifference}} 
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/AluEnable}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source add_sim.tcl
+add_wave {{/add_sim/ADD_UNIT/y}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+remove_files  D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/compareUnit.vhd

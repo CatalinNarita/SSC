@@ -1,0 +1,106 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat May 27 17:25:33 2017
+# Process ID: 6988
+# Current directory: D:/AdunareScadereVM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3416 D:\AdunareScadereVM\AdunareScadereVM.xpr
+# Log file: D:/AdunareScadereVM/vivado.log
+# Journal file: D:/AdunareScadereVM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/AdunareScadereVM/AdunareScadereVM.xpr
+launch_simulation
+source add_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source add_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+close [ open D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/aluMantisa.vhd w ]
+add_files D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/aluMantisa.vhd
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+update_compile_order -fileset sources_1
+launch_simulation
+source add_sim.tcl
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+close [ open D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Inc_Dec.vhd w ]
+add_files D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Inc_Dec.vhd
+launch_simulation
+source add_sim.tcl
+relaunch_sim
+close_sim
+close [ open D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/shift_LR.vhd w ]
+add_files D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/shift_LR.vhd
+launch_simulation
+launch_simulation
+source add_sim.tcl
+close_sim
+close [ open D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Round_Unit.vhd w ]
+add_files D:/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Round_Unit.vhd
+launch_simulation
+source add_sim.tcl
+relaunch_sim
+add_wave {{/add_sim/ADD_UNIT/shiftedSum}} 
+add_wave {{/add_sim/ADD_UNIT/finalRes}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source add_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

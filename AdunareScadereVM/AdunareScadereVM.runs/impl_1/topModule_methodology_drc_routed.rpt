@@ -1,0 +1,2033 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Mon May 29 03:18:56 2017
+| Host         : DESKTOP-52U5V8B running 64-bit major release  (build 9200)
+| Command      : report_methodology -file topModule_methodology_drc_routed.rpt -rpx topModule_methodology_drc_routed.rpx
+| Design       : topModule
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 399
++-----------+------------------+-------------------------------+------------+
+| Rule      | Severity         | Description                   | Violations |
++-----------+------------------+-------------------------------+------------+
+| TIMING-23 | Critical Warning | Combinatorial loop found      | 240        |
+| TIMING-17 | Warning          | Non-clocked sequential cell   | 11         |
+| TIMING-18 | Warning          | Missing input or output delay | 26         |
+| TIMING-20 | Warning          | Non-clocked latch             | 122        |
++-----------+------------------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-23#1 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[0]_INST_0/I3 and ADD_SUB/INCREMENT/exponentOut[0]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#2 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[0]_INST_0/I5 and ADD_SUB/INCREMENT/exponentOut[0]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#3 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[1]_INST_0/I3 and ADD_SUB/INCREMENT/exponentOut[1]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#4 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[1]_INST_0/I5 and ADD_SUB/INCREMENT/exponentOut[1]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#5 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[2]_INST_0/I3 and ADD_SUB/INCREMENT/exponentOut[2]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#6 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[2]_INST_0/I5 and ADD_SUB/INCREMENT/exponentOut[2]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#7 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[3]_INST_0/I3 and ADD_SUB/INCREMENT/exponentOut[3]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#8 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[3]_INST_0/I5 and ADD_SUB/INCREMENT/exponentOut[3]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#9 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[4]_INST_0/I3 and ADD_SUB/INCREMENT/exponentOut[4]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#10 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[4]_INST_0/I5 and ADD_SUB/INCREMENT/exponentOut[4]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#11 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[5]_INST_0/I3 and ADD_SUB/INCREMENT/exponentOut[5]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#12 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[5]_INST_0/I5 and ADD_SUB/INCREMENT/exponentOut[5]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#13 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT/exponentOut[6]_INST_0/I1 and ADD_SUB/INCREMENT/exponentOut[6]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#14 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/INCREMENT_i_1/I0 and ADD_SUB/INCREMENT_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#15 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[10]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[10]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#16 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[11]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[11]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#17 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[11]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[11]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#18 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[12]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#19 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[12]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#20 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/S[0] and ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#21 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/S[1] and ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/CO[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#22 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/S[1] and ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#23 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/S[1] and ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#24 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/CO[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#25 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#26 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#27 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/S[3] and ADD_SUB/ROUND_U/finalRes[12]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#28 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[13]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[13]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#29 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[14]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[14]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#30 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[15]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[15]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#31 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[16]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[16]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#32 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[16]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[16]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#33 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#34 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#35 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#36 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/S[0] and ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#37 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/S[0] and ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#38 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#39 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/S[3] and ADD_SUB/ROUND_U/finalRes[16]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#40 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[17]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[17]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#41 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[18]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[18]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#42 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[19]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[19]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#43 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[19]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[19]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#44 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[20]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#45 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0/I2 and ADD_SUB/ROUND_U/finalRes[20]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#46 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#47 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#48 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#49 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/S[0] and ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#50 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/S[1] and ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#51 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/S[1] and ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#52 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#53 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[20]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#54 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[21]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[21]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#55 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[21]_INST_0/I2 and ADD_SUB/ROUND_U/finalRes[21]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#56 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[22]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[22]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#57 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[22]_INST_0/I2 and ADD_SUB/ROUND_U/finalRes[22]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#58 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[23]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[23]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#59 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[23]_INST_0/I2 and ADD_SUB/ROUND_U/finalRes[23]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#60 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[23]_INST_0_i_1/I1 and ADD_SUB/ROUND_U/finalRes[23]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#61 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[23]_INST_0_i_1/I3 and ADD_SUB/ROUND_U/finalRes[23]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#62 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[24]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#63 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0/I2 and ADD_SUB/ROUND_U/finalRes[24]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#64 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0/I3 and ADD_SUB/ROUND_U/finalRes[24]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#65 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0/I4 and ADD_SUB/ROUND_U/finalRes[24]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#66 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/O[0] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#67 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#68 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#69 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/S[0] and ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/O[1] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#70 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/S[0] and ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#71 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/S[1] and ADD_SUB/ROUND_U/finalRes[24]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#72 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[3]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[3]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#73 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[3]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[3]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#74 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[4]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[4]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#75 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[4]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[4]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#76 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[4]_INST_0/I2 and ADD_SUB/ROUND_U/finalRes[4]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#77 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/S[0] and ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#78 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/CO[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#79 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#80 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#81 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/S[3] and ADD_SUB/ROUND_U/finalRes[4]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#82 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[6]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[6]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#83 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[7]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[7]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#84 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[7]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[7]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#85 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[8]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#86 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[8]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#87 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0/I2 and ADD_SUB/ROUND_U/finalRes[8]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#88 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/CO[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#89 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#90 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/CI and ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#91 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/S[0] and ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#92 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/CO[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#93 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/O[2] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#94 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/S[2] and ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#95 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/S[3] and ADD_SUB/ROUND_U/finalRes[8]_INST_0_i_1/O[3] to disable the timing loop
+Related violations: <none>
+
+TIMING-23#96 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[9]_INST_0/I0 and ADD_SUB/ROUND_U/finalRes[9]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#97 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[9]_INST_0/I1 and ADD_SUB/ROUND_U/finalRes[9]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#98 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/ROUND_U/finalRes[9]_INST_0/I3 and ADD_SUB/ROUND_U/finalRes[9]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#99 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#100 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#101 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_1/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#102 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_1/I4 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#103 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_14/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_14/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#104 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_5/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_5/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#105 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_5/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_5/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#106 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_5/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[11]_INST_0_i_5/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#107 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[12]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[12]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#108 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[12]_INST_0_i_3/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[12]_INST_0_i_3/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#109 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[12]_INST_0_i_3/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[12]_INST_0_i_3/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#110 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[13]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[13]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#111 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[13]_INST_0_i_2/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[13]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#112 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[13]_INST_0_i_6/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[13]_INST_0_i_6/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#113 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#114 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#115 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0_i_18/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0_i_18/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#116 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0_i_3/I4 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0_i_3/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#117 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0_i_3/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[15]_INST_0_i_3/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#118 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#119 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0_i_2/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#120 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0_i_2/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#121 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0_i_6/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0_i_6/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#122 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0_i_6/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[16]_INST_0_i_6/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#123 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#124 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0_i_10/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0_i_10/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#125 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0_i_2/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#126 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0_i_2/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#127 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0_i_6/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[17]_INST_0_i_6/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#128 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[18]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[18]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#129 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[18]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[18]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#130 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[18]_INST_0/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[18]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#131 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[18]_INST_0_i_9/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[18]_INST_0_i_9/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#132 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#133 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#134 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#135 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_10/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_10/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#136 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_10/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_10/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#137 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_10/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_10/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#138 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_25/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_25/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#139 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_4/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_4/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#140 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_4/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[19]_INST_0_i_4/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#141 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#142 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_11/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_11/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#143 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_11/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_11/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#144 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_17/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_17/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#145 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_17/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_17/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#146 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_2/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#147 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_5/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_5/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#148 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_7/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_7/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#149 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_7/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[1]_INST_0_i_7/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#150 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#151 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#152 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0_i_10/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0_i_10/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#153 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0_i_10/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0_i_10/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#154 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0_i_17/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[20]_INST_0_i_17/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#155 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[21]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[21]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#156 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[21]_INST_0_i_2/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[21]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#157 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[21]_INST_0_i_2/I4 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[21]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#158 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[21]_INST_0_i_8/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[21]_INST_0_i_8/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#159 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[22]_INST_0_i_12/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[22]_INST_0_i_12/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#160 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[22]_INST_0_i_12/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[22]_INST_0_i_12/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#161 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[22]_INST_0_i_12/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[22]_INST_0_i_12/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#162 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#163 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#164 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#165 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0_i_14/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0_i_14/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#166 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0_i_5/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0_i_5/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#167 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0_i_5/I4 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[23]_INST_0_i_5/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#168 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[24]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[24]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#169 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[24]_INST_0_i_10/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[24]_INST_0_i_10/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#170 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[24]_INST_0_i_2/I4 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[24]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#171 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[24]_INST_0_i_2/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[24]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#172 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#173 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0_i_1/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#174 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0_i_1/I4 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#175 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0_i_6/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0_i_6/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#176 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0_i_9/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[25]_INST_0_i_9/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#177 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#178 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#179 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#180 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_22/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_22/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#181 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_22/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_22/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#182 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_35/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_35/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#183 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_35/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_35/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#184 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_36/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_36/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#185 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_37/I4 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_37/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#186 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_45/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_45/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#187 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_46/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_46/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#188 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_46/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_46/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#189 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_47/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_47/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#190 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_47/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_47/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#191 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_48/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_48/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#192 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_48/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_48/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#193 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_49/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_49/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#194 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_49/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_49/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#195 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_52/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_52/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#196 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_52/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_52/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#197 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_6/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[26]_INST_0_i_6/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#198 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[2]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[2]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#199 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#200 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_2/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#201 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_2/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#202 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_4/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_4/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#203 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_4/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_4/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#204 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_9/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[3]_INST_0_i_9/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#205 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[4]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[4]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#206 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[4]_INST_0_i_1/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[4]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#207 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[4]_INST_0_i_1/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[4]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#208 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[4]_INST_0_i_8/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[4]_INST_0_i_8/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#209 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#210 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#211 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0_i_1/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#212 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0_i_1/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#213 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0_i_13/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0_i_13/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#214 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0_i_8/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[5]_INST_0_i_8/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#215 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_13/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_13/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#216 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_13/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_13/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#217 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_9/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_9/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#218 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_9/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_9/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#219 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_9/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[6]_INST_0_i_9/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#220 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#221 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#222 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#223 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0_i_11/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0_i_11/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#224 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0_i_23/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0_i_23/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#225 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0_i_4/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0_i_4/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#226 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0_i_4/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[7]_INST_0_i_4/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#227 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#228 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_1/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#229 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_1/I4 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_1/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#230 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_3/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_3/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#231 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_8/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_8/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#232 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_8/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[8]_INST_0_i_8/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#233 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#234 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_10/I0 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_10/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#235 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_15/I2 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_15/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#236 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_2/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#237 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_2/I5 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#238 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_5/I1 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_5/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#239 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_5/I3 and ADD_SUB/SHIFT_LEFT_RIGHT/shiftedSum[9]_INST_0_i_5/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#240 Critical Warning
+Combinatorial loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between ADD_SUB/SHIFT_LEFT_RIGHT_i_33/I2 and ADD_SUB/SHIFT_LEFT_RIGHT_i_33/O to disable the timing loop
+Related violations: <none>
+
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Warning
+Non-clocked sequential cell  
+The clock pin ADD_SUB/CONTROL/FSM_onehot_currentState_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on JA[0] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on JA[1] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on JA[2] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on JA[3] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on JA[4] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on JA[5] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on JA[6] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on JA[7] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on Rst relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on mem relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on An[0] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on An[1] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on An[2] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on An[3] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on An[4] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on An[5] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on An[6] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on An[7] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on Seg[0] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on Seg[1] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on Seg[2] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on Seg[3] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on Seg[4] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on Seg[5] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on Seg[6] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on Seg[7] relative to clock(s) sys_clk_pin 
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[0] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[10] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[1] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[2] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[3] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[4] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[5] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[6] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[7] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[8] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/FSM_onehot_nextState_reg[9] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/FSM_onehot_nextState_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/addsub_reg cannot be properly analyzed as its control pin ADD_SUB/CONTROL/addsub_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/large_exp_reg cannot be properly analyzed as its control pin ADD_SUB/CONTROL/large_exp_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shiftPos_reg[0] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shiftPos_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shiftPos_reg[1] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shiftPos_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shiftPos_reg[2] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shiftPos_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shiftPos_reg[3] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shiftPos_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shiftPos_reg[4] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shiftPos_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shiftResult_reg cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shiftResult_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[0] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[10] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[11] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[12] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[13] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[14] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[15] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[16] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[17] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[18] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[19] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[1] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[20] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[21] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[22] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[23] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[24] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[25] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[26] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[27] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[28] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[29] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[2] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[30] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[31] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[3] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[4] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[5] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[6] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[7] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[8] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/shift_right_pos_reg[9] cannot be properly analyzed as its control pin ADD_SUB/CONTROL/shift_right_pos_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/sign_reg cannot be properly analyzed as its control pin ADD_SUB/CONTROL/sign_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/small_num_reg cannot be properly analyzed as its control pin ADD_SUB/CONTROL/small_num_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch ADD_SUB/CONTROL/stop_reg cannot be properly analyzed as its control pin ADD_SUB/CONTROL/stop_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch ADD_SUB/SHIFT_LEFT_RIGHT/temp_reg[11] cannot be properly analyzed as its control pin ADD_SUB/SHIFT_LEFT_RIGHT/temp_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch ADD_SUB/SHIFT_LEFT_RIGHT/temp_reg[12] cannot be properly analyzed as its control pin ADD_SUB/SHIFT_LEFT_RIGHT/temp_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch ADD_SUB/SHIFT_LEFT_RIGHT/temp_reg[20] cannot be properly analyzed as its control pin ADD_SUB/SHIFT_LEFT_RIGHT/temp_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch ADD_SUB/SHIFT_LEFT_RIGHT/temp_reg[2] cannot be properly analyzed as its control pin ADD_SUB/SHIFT_LEFT_RIGHT/temp_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[0] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[10] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[11] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[12] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[13] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[14] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[15] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[16] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[17] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[18] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#69 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[19] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#70 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[1] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#71 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[20] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#72 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[21] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#73 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[22] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#74 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[23] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#75 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[24] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#76 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[25] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#77 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[26] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#78 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[27] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#79 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[28] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#80 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[29] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#81 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[2] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#82 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[30] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#83 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[31] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#84 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[3] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#85 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[4] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#86 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[5] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#87 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[6] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#88 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[7] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#89 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[8] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#90 Warning
+Non-clocked latch  
+The latch KEYPAD/Xfinal_reg[9] cannot be properly analyzed as its control pin KEYPAD/Xfinal_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#91 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[0] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#92 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[10] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#93 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[11] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#94 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[12] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#95 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[13] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#96 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[14] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#97 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[15] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#98 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[16] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#99 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[17] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#100 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[18] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#101 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[19] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#102 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[1] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#103 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[20] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#104 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[21] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#105 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[22] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#106 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[23] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#107 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[24] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#108 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[25] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#109 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[26] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#110 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[27] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#111 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[28] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#112 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[29] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#113 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[2] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#114 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[30] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#115 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[31] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#116 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[3] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#117 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[4] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#118 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[5] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#119 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[6] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#120 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[7] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#121 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[8] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#122 Warning
+Non-clocked latch  
+The latch KEYPAD/Yfinal_reg[9] cannot be properly analyzed as its control pin KEYPAD/Yfinal_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+

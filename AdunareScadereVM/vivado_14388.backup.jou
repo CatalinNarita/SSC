@@ -1,0 +1,319 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun May 28 17:21:37 2017
+# Process ID: 14388
+# Current directory: D:/Facultate/AdunareScadereVM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11944 D:\Facultate\AdunareScadereVM\AdunareScadereVM.xpr
+# Log file: D:/Facultate/AdunareScadereVM/vivado.log
+# Journal file: D:/Facultate/AdunareScadereVM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Facultate/AdunareScadereVM/AdunareScadereVM.xpr
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+set_property -name {xsim.simulate.runtime} -value {2000 ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+set_property -name {xsim.simulate.runtime} -value {4000 ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/c2_sim.vhd w ]
+add_files -fileset sim_1 D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/c2_sim.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top c2_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source c2_sim.tcl
+close_sim
+launch_simulation
+source c2_sim.tcl
+close_sim
+launch_simulation
+source c2_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/inc_dec_sim.vhd w ]
+add_files -fileset sim_1 D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/inc_dec_sim.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top inc_dec_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source inc_dec_sim.tcl
+close_sim
+launch_simulation
+source inc_dec_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/shift_sim.vhd w ]
+add_files -fileset sim_1 D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/shift_sim.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top shift_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source shift_sim.tcl
+current_sim simulation_14
+close_sim
+close_sim
+close_sim
+close_sim
+launch_simulation
+source shift_sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+source shift_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/round_sim.vhd w ]
+add_files -fileset sim_1 D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/round_sim.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top round_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source round_sim.tcl
+close_sim
+launch_simulation
+source round_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/alu1_sim.vhd w ]
+add_files -fileset sim_1 D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/alu1_sim.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top alu1_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source alu1_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/shift_right_sim.vhd w ]
+add_files -fileset sim_1 D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/shift_right_sim.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top shift_right_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+launch_simulation
+source shift_right_sim.tcl
+close_sim
+launch_simulation
+source shift_right_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/mantissa_alu_sim.vhd w ]
+add_files -fileset sim_1 D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/mantissa_alu_sim.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mantissa_alu_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+launch_simulation
+launch_simulation
+source mantissa_alu_sim.tcl
+close_sim
+launch_simulation
+source mantissa_alu_sim.tcl
+remove_files  D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/testModule.vhd
+file delete -force D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/testModule.vhd
+add_files -fileset constrs_1 -norecurse D:/Facultate/AdunareScadereVM/Nexys4DDR_Master.xdc
+open_project D:/Facultate/An3S2/SSC/lab/LabSSC/tastatura/tastatura.xpr
+current_project AdunareScadereVM
+current_project tastatura
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+current_project AdunareScadereVM
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/kpd.vhd w ]
+add_files -fileset sim_1 D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/kpd.vhd
+remove_files  -fileset sim_1 D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/kpd.vhd
+file delete -force D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sim_1/new/kpd.vhd
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/kpd.vhd w ]
+add_files D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/kpd.vhd
+current_project tastatura
+current_project AdunareScadereVM
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/debounce.vhd w ]
+add_files D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/debounce.vhd
+current_project tastatura
+current_project AdunareScadereVM
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/displ7seg.vhd w ]
+add_files D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/displ7seg.vhd
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/topModule.vhd w ]
+add_files D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/topModule.vhd
+current_project tastatura
+current_project AdunareScadereVM
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+current_project tastatura
+current_project AdunareScadereVM
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+set_property strategy Flow_RuntimeOptimized [get_runs synth_1]
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+set_property strategy {Vivado Synthesis Defaults} [get_runs synth_1]
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top add_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source add_sim.tcl
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+current_project tastatura
+current_project AdunareScadereVM
+close [ open D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Decoder.vhd w ]
+add_files D:/Facultate/AdunareScadereVM/AdunareScadereVM.srcs/sources_1/new/Decoder.vhd
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+synth_design -rtl -name rtl_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+close_sim
+launch_simulation
+source add_sim.tcl
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property strategy Flow_RuntimeOptimized [get_runs synth_1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_sim
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+current_sim simulation_29
+launch_simulation
+source add_sim.tcl
+close_sim
+launch_simulation
+source add_sim.tcl
+current_sim simulation_22
+close_sim
+current_sim simulation_34
+close_sim
+current_sim simulation_29
+close_sim
+current_sim simulation_27
+close_sim
+current_sim simulation_25
+close_sim
+close_sim
+launch_simulation
+source add_sim.tcl
+current_project tastatura
+close_project
+import_files
+close_sim

@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  "../../../Porject.srcs/sources_1/new/calculMantisa.vhd"
-vhdl xil_defaultlib  "../../../Porject.srcs/sim_1/new/calculMantisa_sim.vhd"
-
-# Do not sort compile order
-nosort
